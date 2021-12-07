@@ -19,7 +19,7 @@
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "generate": "stencil generate",
-    "deploy": "npm publish ; vercel --prod --confirm --name stellar-demo-wallet"
+    "deploy": "vercel /dist --prod --confirm"
   },
   "devDependencies": {
     "@capacitor/cli": "^2.2.0",
@@ -40,7 +40,7 @@
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "rollup-plugin-node-polyfills": "^0.2.1",
-    "stellar-sdk": "^5.0.3",
+    "stellar-sdk": "5.0.3",
     "toml": "^3.0.0",
     "tweetnacl": "^1.0.3"
   },

@@ -43,6 +43,7 @@ export const config: Config = {
         "Memo",
         "MemoHash",
       ],
+      "@stellar/wallet-sdk": ["KeyManager", "KeyManagerPlugins", "KeyType"],
     },
   },
   plugins: [
